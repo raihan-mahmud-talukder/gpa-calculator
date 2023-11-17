@@ -8,6 +8,7 @@ science = int(input('Science: '))
 result = (bangla + english + math + science) / 4
 
 grade = ''
+
 if bangla < 0 or english < 0 or math < 0 or science < 0 or bangla > 100 or english > 100 or math > 100 or science > 100:
     print('Input out of range')
 else:
